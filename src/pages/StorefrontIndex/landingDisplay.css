@@ -1,0 +1,444 @@
+@media (min-width: 1px) {
+	/* landing dipslay component */
+	body .landingDisplay {
+		background-image: linear-gradient(to right, #96e9fb, #bef1df);
+		font-family: 'poppins';
+		padding-top: 20%;
+		height: 100vh;
+	}
+	body .landingDisplay .landingDescription {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: stretch;
+		height: 100%;
+	}
+	body .landingDisplay .landingDescription .textDescription {
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 3em;
+		padding: 30px 0;
+	}
+	body .landingDisplay .landingDescription .textDescription h1 {
+		font-size: 45px;
+		font-family: inter;
+		font-weight: 700;
+		line-height: 50px;
+	}
+	body .landingDisplay .landingDescription .textDescription p {
+		color: #1c222b;
+		font-size: 20px;
+		text-align: justify;
+	}
+	body .landingDisplay .landingDescription .textDescription .buttons {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+		align-self: flex-start;
+		align-items: flex-start;
+	}
+	body
+		.landingDisplay
+		.landingDescription
+		.textDescription
+		.buttons
+		.buttonlink1 {
+		display: flex;
+		padding: 10px 20px;
+		justify-content: center;
+		align-items: center;
+		border-radius: 6px;
+		color: #1b4dff;
+		background-color: white;
+		width: 100%;
+	}
+	body
+		.landingDisplay
+		.landingDescription
+		.textDescription
+		.buttons
+		.buttonlink2 {
+		display: flex;
+		padding: 10px 20px;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		border-radius: 6px;
+		color: #1b4dff;
+	}
+	body
+		.landingDisplay
+		.landingDescription
+		.textDescription
+		.buttons
+		.buttonlink2
+		.buttondesign {
+		display: flex;
+		gap: 10px;
+	}
+	body .landingDisplay .imagePart {
+		display: none;
+		position: relative;
+		top: 0;
+		width: 50%;
+	}
+	body .landingDisplay .imagePart .frameImg {
+		position: absolute;
+		bottom: 5rem;
+		left: 2.5rem;
+		width: 80%;
+	}
+	body .landingDisplay .imagePart .peopleImg {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 80%;
+	}
+}
+
+@media (min-width: 770px) {
+	/* landing dipslay component */
+	body .landingDisplay {
+		background-image: linear-gradient(to right, #96e9fb, #bef1df);
+		font-family: 'poppins';
+		padding-top: 20%;
+		height: auto;
+	}
+
+	body .landingDisplay .landingDescription {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: stretch;
+		height: 100%;
+	}
+
+	body .landingDisplay .landingDescription .textDescription {
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 30px;
+		padding: 30px 0;
+	}
+
+	body .landingDisplay .landingDescription .textDescription h1 {
+		font-size: 70px;
+		font-family: inter;
+		font-weight: 700;
+		line-height: 90px;
+	}
+
+	body .landingDisplay .landingDescription .textDescription p {
+		color: #1c222b;
+		font-size: 20px;
+		text-align: justify;
+	}
+
+	body .landingDisplay .landingDescription .textDescription .buttons {
+		display: flex;
+		gap: 30px;
+		align-self: flex-start;
+		align-items: flex-start;
+		width: 100%;
+	}
+
+	body
+		.landingDisplay
+		.landingDescription
+		.textDescription
+		.buttons
+		.buttonlink1 {
+		display: flex;
+		padding: 10px 20px;
+		justify-content: center;
+		align-items: center;
+		border-radius: 6px;
+		color: #1b4dff;
+		background-color: white;
+		width: 50%;
+	}
+
+	body
+		.landingDisplay
+		.landingDescription
+		.textDescription
+		.buttons
+		.buttonlink2 {
+		display: flex;
+		padding: 10px 20px;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		border-radius: 6px;
+		color: #1b4dff;
+		text-align: center;
+	}
+
+	body
+		.landingDisplay
+		.landingDescription
+		.textDescription
+		.buttons
+		.buttonlink2
+		.buttondesign {
+		display: flex;
+		gap: 10px;
+	}
+
+	body .landingDisplay .imagePart {
+		display: none;
+		position: relative;
+		top: 0;
+		width: 50%;
+	}
+
+	body .landingDisplay .imagePart .frameImg {
+		position: absolute;
+		bottom: 5rem;
+		left: 2.5rem;
+		width: 80%;
+	}
+
+	body .landingDisplay .imagePart .peopleImg {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 80%;
+	}
+}
+
+@media (min-width: 1000px) {
+	/* landing display section */
+	body .landingDisplay {
+		background-image: linear-gradient(to right, #96e9fb, #bef1df);
+		font-family: 'poppins';
+		height: 100vh;
+		display: flex;
+		padding-top: 10%;
+	}
+
+	body .landingDisplay .landingDescription {
+		width: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: stretch;
+		height: 100%;
+		align-self: flex-end;
+	}
+
+	body .landingDisplay .landingDescription .textDescription {
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 1em;
+	}
+
+	body .landingDisplay .landingDescription .textDescription h1 {
+		font-family: Inter;
+		font-size: 50px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 50px;
+		letter-spacing: -2.3px;
+	}
+
+	body .landingDisplay .landingDescription .textDescription p {
+		color: #1c222b;
+		font-family: Inter;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 32px;
+		letter-spacing: -0.3px;
+		opacity: 0.6;
+	}
+
+	body .landingDisplay .landingDescription .textDescription .buttons {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+	}
+
+	body
+		.landingDisplay
+		.landingDescription
+		.textDescription
+		.buttons
+		.buttonlink1 {
+		display: flex;
+		padding: 10px 20px;
+		justify-content: center;
+		align-items: center;
+		border-radius: 6px;
+		color: #1b4dff;
+		background-color: white;
+	}
+
+	body
+		.landingDisplay
+		.landingDescription
+		.textDescription
+		.buttons
+		.buttonlink2 {
+		display: flex;
+		padding: 10px 20px;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		border-radius: 6px;
+		color: #455468;
+	}
+
+	body
+		.landingDisplay
+		.landingDescription
+		.textDescription
+		.buttons
+		.buttonlink2
+		.buttondesign {
+		display: flex;
+		gap: 10px;
+	}
+	body .landingDisplay .imagePart {
+		display: grid;
+		grid-template-columns: repeat(10, 1fr);
+		grid-template-rows: repeat(10, 1fr);
+		width: 50%;
+	}
+
+	body .landingDisplay .imagePart .frameImg {
+		grid-row: 2/10;
+		grid-column: 2/11;
+		width: 90%;
+		justify-self: center;
+	}
+
+	body .landingDisplay .imagePart .peopleImg {
+		grid-row: 2/11;
+		grid-column: 2/11;
+		align-self: end;
+		width: 100%;
+	}
+}
+
+@media (min-width: 1246px) {
+	/* landing display section */
+	body .landingDisplay {
+		background-image: linear-gradient(to right, #96e9fb, #bef1df);
+		font-family: 'poppins';
+		height: 100vh;
+		display: flex;
+		padding-top: 10%;
+	}
+
+	body .landingDisplay .landingDescription {
+		width: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: stretch;
+		height: 100%;
+		align-self: flex-end;
+	}
+
+	body .landingDisplay .landingDescription .textDescription {
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 1em;
+	}
+
+	body .landingDisplay .landingDescription .textDescription h1 {
+		font-family: Inter;
+		font-size: 72px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 90px;
+		letter-spacing: -2.3px;
+	}
+
+	body .landingDisplay .landingDescription .textDescription p {
+		color: #1c222b;
+		font-family: Inter;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 32px;
+		letter-spacing: -0.3px;
+		opacity: 0.6;
+	}
+
+	body .landingDisplay .landingDescription .textDescription .buttons {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		gap: 0px;
+	}
+
+	body
+		.landingDisplay
+		.landingDescription
+		.textDescription
+		.buttons
+		.buttonlink1 {
+		display: flex;
+		padding: 10px 20px;
+		justify-content: center;
+		align-items: center;
+		border-radius: 6px;
+		color: #1b4dff;
+		background-color: white;
+		width: 50%;
+	}
+
+	body
+		.landingDisplay
+		.landingDescription
+		.textDescription
+		.buttons
+		.buttonlink2 {
+		display: flex;
+		padding: 10px 20px;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		border-radius: 6px;
+		color: #455468;
+		width: 50%;
+	}
+
+	body
+		.landingDisplay
+		.landingDescription
+		.textDescription
+		.buttons
+		.buttonlink2
+		.buttondesign {
+		display: flex;
+		gap: 10px;
+	}
+	body .landingDisplay .imagePart {
+		display: grid;
+		grid-template-columns: repeat(10, 1fr);
+		grid-template-rows: repeat(10, 1fr);
+		width: 50%;
+	}
+
+	body .landingDisplay .imagePart .frameImg {
+		grid-row: 2/10;
+		grid-column: 2/11;
+		width: 90%;
+		justify-self: center;
+	}
+
+	body .landingDisplay .imagePart .peopleImg {
+		grid-row: 2/11;
+		grid-column: 2/11;
+		align-self: end;
+		width: 100%;
+	}
+}

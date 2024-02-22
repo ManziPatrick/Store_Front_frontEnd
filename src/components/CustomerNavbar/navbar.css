@@ -1,0 +1,64 @@
+@media (min-width: 1px) {
+	.managerNavbar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 10vh;
+		background-color: #00114a;
+		display: flex;
+		align-items: center;
+		z-index: 5;
+		justify-content: space-between;
+	}
+	.managerNavbar .menulogo .burger {
+		display: block;
+		margin-left: 20px;
+		width: 25px;
+	}
+	.managerNavbar .menulogo .logo {
+		margin-left: 20px;
+		display: none;
+	}
+
+	.managerNavbar .profileNotification {
+		margin-right: 20px;
+		display: flex;
+		gap: 20px;
+	}
+	.managerNavbar .profileNotification .notificationBell {
+		width: 25px;
+	}
+	.managerNavbar .profileNotification .profile img {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+	}
+}
+@media (min-width: 1000px) {
+	.managerNavbar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 10vh;
+		background-color: #00114a;
+		display: flex;
+		align-items: center;
+		z-index: 10;
+		justify-content: space-between;
+	}
+	.managerNavbar .menulogo .burger {
+		display: none;
+	}
+	.managerNavbar .menulogo .logo {
+		margin-left: 50px;
+		display: block;
+	}
+	.managerNavbar .profileNotification {
+		margin-right: 50px;
+	}
+	.managerNavbar .profileNotification .notificationBell {
+		width: 25px;
+	}
+}

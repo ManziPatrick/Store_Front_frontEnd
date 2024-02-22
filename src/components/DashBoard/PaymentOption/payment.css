@@ -1,0 +1,393 @@
+@media (min-width: 1px) {
+	.productsPayment {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		height: 100%;
+	}
+	.productsPayment .divDissapear {
+		display: none;
+	}
+	.productsPayment .paymentHeading {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 100%;
+		padding: 20px 0px;
+	}
+	.productsPayment .paymentHeading .headingContainer {
+		width: 95%;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		justify-content: space-between;
+	}
+	.productsPayment .paymentHeading .productsHead {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 20px;
+	}
+	.productsPayment .paymentHeading .productsHead h2 {
+		color: var(--colors-primary-slate-600, #455468);
+		font-family: Inter;
+		font-size: 22px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 35px;
+		letter-spacing: -0.3px;
+	}
+	.productsPayment .paymentHeading .productsHead h3 {
+		color: var(--colors-primary-slate-500, #5e718d);
+		font-family: Inter;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 20px;
+		letter-spacing: -0.2px;
+		background-color: #f0f3f9;
+		padding: 5px;
+		border-radius: 5px;
+	}
+	.productsPayment .paymentHeading .headicons {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	.productsPayment .paymentHeading .headicons .searchbar {
+		display: flex;
+		flex-direction: row;
+		background-color: #f2f5ff;
+		border-radius: 5px;
+		padding: 5px 20px;
+		gap: 15px;
+	}
+
+	.productsPayment .paymentHeading .headicons .searchbar input {
+		background-color: #f2f5ff;
+		border-radius: 5px;
+		flex-grow: 1;
+	}
+	.productsPayment
+		.paymentHeading
+		.headicons
+		.searchbar
+		input[typle='text']:focus {
+		border: none;
+	}
+	.custom-input:focus {
+		border: none;
+	}
+	.productsPayment .paymentHeading .headicons .iconsFilter {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: 100%;
+		gap: 10px;
+		padding: 5px 15px;
+		border-radius: 5px;
+		border: #1b4dff solid 1px;
+	}
+
+	.productsPayment .paymentHeading .headicons .iconsFilter p {
+		color: var(--colors-primary-primary-500, #1b4dff);
+		font-family: Inter;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 24px;
+		letter-spacing: -0.2px;
+	}
+
+	.productsPayment .paymentHeading .headicons .newPrdtBtn {
+		display: flex;
+		padding: 6px 12px;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		color: var(--colors-base-00, #fff);
+		background-color: #0f3cd9;
+		border-radius: 5px;
+
+		font-family: Inter;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 24px;
+		letter-spacing: -0.2px;
+	}
+	.productsPayment .paymentsOptions {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		align-self: center;
+	}
+	.productsPayment .paymentsOptions .paymentOption {
+		display: flex;
+		align-items: stretch;
+		padding: 16px;
+		border-radius: 8px;
+		border: 1px solid #eaecf0;
+		justify-content: space-between;
+	}
+
+	/* default payment option with class paymentOptionDefault*/
+	.productsPayment .paymentsOptions .paymentOptionDefault {
+		display: flex;
+		align-items: stretch;
+		justify-content: space-between;
+		padding: 16px;
+		border-radius: 8px;
+		border: 1px;
+		background: linear-gradient(0deg, #f5f5ff, #f5f5ff),
+			linear-gradient(0deg, #0408e7, #0408e7);
+		border: 1px solid #0408e7;
+	}
+	.productsPayment .paymentsOptions .paymentOptionDefault .detButtons {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+	.productsPayment .paymentsOptions .paymentOption .detButtons {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+	.productsPayment
+		.paymentsOptions
+		.paymentOptionDefault
+		.detButtons
+		.customerDetails {
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media (min-width: 770px) {
+	.productsPayment {
+		width: 100%;
+	}
+	.productsPayment .divDissapear {
+		display: none;
+	}
+	.productsPayment .paymentHeading {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 100%;
+		padding: 20px 0px;
+	}
+	.productsPayment .paymentHeading .headingContainer {
+		width: 95%;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		justify-content: space-between;
+	}
+	.productsPayment .paymentHeading .productsHead {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 20px;
+	}
+	.productsPayment .paymentHeading .productsHead h2 {
+		color: var(--colors-primary-slate-600, #455468);
+		font-family: Inter;
+		font-size: 22px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 35px;
+		letter-spacing: -0.3px;
+	}
+	.productsPayment .paymentHeading .productsHead h3 {
+		color: var(--colors-primary-slate-500, #5e718d);
+		font-family: Inter;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 20px;
+		letter-spacing: -0.2px;
+		background-color: #f0f3f9;
+		padding: 5px;
+		border-radius: 5px;
+	}
+	.productsPayment .paymentHeading .headicons {
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+	}
+	.productsPayment .paymentHeading .headicons .searchbar {
+		display: flex;
+		flex-direction: row;
+		background-color: #f2f5ff;
+		border-radius: 5px;
+		padding: 5px 20px;
+	}
+	.productsPayment .paymentHeading .headicons .searchbar input {
+		background-color: #f2f5ff;
+		border-radius: 5px;
+	}
+	.productsPayment .paymentHeading .headicons .searchbar input:focus {
+		border: none;
+	}
+	.productsPayment .paymentHeading .headicons .iconsFilter {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: fit-content;
+		gap: 10px;
+		border-radius: 5px;
+		border: #1b4dff solid 1px;
+	}
+	.productsPayment .paymentHeading .headicons .iconsFilter p {
+		color: var(--colors-primary-primary-500, #1b4dff);
+		font-family: Inter;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 24px;
+		letter-spacing: -0.2px;
+	}
+	.productsPayment .paymentHeading .headicons .newPrdtBtn {
+		display: flex;
+		padding: 6px 12px;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		color: var(--colors-base-00, #fff);
+		background-color: #0f3cd9;
+		border-radius: 5px;
+
+		font-family: Inter;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 24px;
+		letter-spacing: -0.2px;
+	}
+	.productsPayment .paymentsOptions {
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		align-self: center;
+	}
+}
+@media (min-width: 1000px) {
+	.productsPayment {
+		width: 100%;
+	}
+	.productsPayment .divDissapear {
+		display: none;
+	}
+	.productsPayment .paymentHeading {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 100%;
+		padding: 20px 0px;
+	}
+	.productsPayment .paymentHeading .headingContainer {
+		width: 98%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.productsPayment .paymentHeading .headingContainer .productsHead {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 20px;
+	}
+	.productsPayment .paymentHeading .headingContainer .productsHead h2 {
+		color: var(--colors-primary-slate-600, #455468);
+		font-family: Inter;
+		font-size: 22px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 35px;
+		letter-spacing: -0.3px;
+	}
+	.productsPayment .paymentHeading .headingContainer .productsHead h3 {
+		color: var(--colors-primary-slate-500, #5e718d);
+		font-family: Inter;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 20px;
+		letter-spacing: -0.2px;
+		background-color: #f0f3f9;
+		padding: 5px;
+		border-radius: 5px;
+	}
+	.productsPayment .paymentHeading .headingContainer .headicons {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		gap: 20px;
+	}
+	.productsPayment .paymentHeading .headingContainer .headicons .searchbar {
+		display: flex;
+		flex-direction: row;
+		background-color: #f2f5ff;
+		border-radius: 5px;
+		padding: 5px 20px;
+	}
+
+	.productsPayment
+		.paymentHeading
+		.headingContainer
+		.headicons
+		.searchbar
+		input {
+		background-color: #f2f5ff;
+		border-radius: 5px;
+	}
+
+	.productsPayment .paymentHeading .headingContainer .headicons .iconsFilter {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 10px;
+
+		border-radius: 5px;
+		border: #1b4dff solid 1px;
+	}
+
+	.productsPayment .paymentHeading .headingContainer .headicons .iconsFilter p {
+		color: var(--colors-primary-primary-500, #1b4dff);
+		font-family: Inter;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 24px;
+		letter-spacing: -0.2px;
+	}
+
+	.productsPayment .paymentHeading .headingContainer .headicons .newPrdtBtn {
+		display: flex;
+		padding: 6px 12px;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		color: var(--colors-base-00, #fff);
+		background-color: #0f3cd9;
+		border-radius: 5px;
+		font-family: Inter;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 24px;
+		letter-spacing: -0.2px;
+	}
+	.productsPayment .paymentsOptions {
+		width: 60%;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		align-self: center;
+	}
+}

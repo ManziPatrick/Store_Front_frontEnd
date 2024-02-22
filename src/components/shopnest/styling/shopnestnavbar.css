@@ -1,0 +1,153 @@
+@media (min-width: 1px) {
+	.navigationbar {
+		display: flex;
+		justify-content: space-between;
+		background-color: black;
+		align-items: center;
+		padding: 20px 0;
+		width: 100%;
+		z-index: 10;
+	}
+	.navigationbar .logo {
+		margin-left: 50px;
+		display: none;
+	}
+	.navigationbar .burger {
+		display: block;
+		margin-left: 20px;
+	}
+	.navigationbar .searchAndMenu {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+	}
+	.navigationbar .searchAndMenu .menuitems {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 30px;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		height: 100vh;
+		width: 90vw;
+		background-color: rgba(0, 0, 0, 0.909);
+		transform: translate3d(-100vw, 0, 0);
+		transition: transform 0.3s cubic-bezier(0, 0.52, 0, 1);
+	}
+	.navigationbar .searchAndMenu .menuitems .slidinglogo {
+		display: block;
+		margin: 20px 0;
+	}
+	.navigationbar .searchAndMenu .menuitems .menuitem {
+		color: white;
+		font-size: 14px;
+		font-family: Inter;
+		font-weight: 700;
+		line-height: 24px;
+		word-wrap: break-word;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.navigationbar .searchAndMenu .menuitems .menuitem hr {
+		width: 80%;
+		border: #0a9952 1px solid;
+	}
+	.navigationbar .searchAndMenu .menuitems.show {
+		transform: translate3d(0vw, 0, 0);
+		transition: transform 0.3s cubic-bezier(0, 0.52, 0, 1);
+	}
+	.navigationbar .searchAndMenu .search {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+		display: none;
+	}
+	.navigationbar .searchAndMenu .search input {
+		display: none;
+	}
+	.navigationbar .searchAndMenu .search .searchtext {
+		color: white;
+		font-size: 14px;
+		font-family: Inter;
+		font-weight: 700;
+		line-height: 24px;
+		word-wrap: break-word;
+	}
+	.navigationbar .cartitems {
+		display: flex;
+		gap: 20px;
+		margin-right: 20px;
+	}
+}
+@media (min-width: 770px) {
+	.navigationbar {
+		display: flex;
+		justify-content: space-between;
+		background-color: black;
+		align-items: center;
+		padding: 20px 0;
+	}
+	.navigationbar .logo {
+		margin-left: 50px;
+		display: block;
+	}
+	.navigationbar .burger {
+		display: none;
+	}
+	.navigationbar .searchAndMenu {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+	}
+	.navigationbar .searchAndMenu .slidinglogo {
+		display: none;
+	}
+	.navigationbar .searchAndMenu .menuitems {
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+		position: static;
+		height: auto;
+		width: auto;
+		transform: translate3d(0vw, 0, 0);
+		transition: transform 0.3s cubic-bezier(0, 0.52, 0, 1);
+	}
+	.navigationbar .searchAndMenu .menuitems .slidinglogo {
+		display: none;
+	}
+	.navigationbar .searchAndMenu .menuitems .menuitem {
+		color: white;
+		font-size: 14px;
+		font-family: Inter;
+		font-weight: 700;
+		line-height: 24px;
+		word-wrap: break-word;
+	}
+	.navigationbar .searchAndMenu .menuitems .closingbutton {
+		display: none;
+	}
+	.navigationbar .searchAndMenu .search {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+	}
+	.navigationbar .searchAndMenu .search input {
+		display: none;
+	}
+	.navigationbar .searchAndMenu .search .searchtext {
+		color: white;
+		font-size: 14px;
+		font-family: Inter;
+		font-weight: 700;
+		line-height: 24px;
+		word-wrap: break-word;
+	}
+	.navigationbar .cartitems {
+		display: flex;
+		gap: 20px;
+		margin-right: 50px;
+	}
+} /*# sourceMappingURL=shopnestnavbar.css.map */

@@ -1,0 +1,91 @@
+.input{
+fill: var(--Primary-50, #F5F5FF);
+stroke-width: 1px;
+stroke: var(--Primary-600, #0408E7);
+width: 20px;
+padding: 5px;
+height: 20px;
+}
+.label{
+color: var(--Colors-Primary-Slate-700, #3D4A5C);
+
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+letter-spacing: -0.3px;
+}
+.box{
+border-radius: 16px;
+display:flex ;
+padding: 18px 116px 18px 38px;
+align-items: center;
+border: 1px solid var(--Gray-300, #D0D5DD);
+background: var(--Base-White, #FFF);
+
+box-shadow: 0px 0px 0px 2px #94ABFF, 0px 1px 2px 0px #94ABFF;
+}
+@media (max-width: 1132px) {
+    .box{
+        border-radius: 16px;
+        
+        padding: 18px 18px 18px 18px;
+        align-items: center;
+        border: 1px solid var(--Gray-300, #D0D5DD);
+        background: var(--Base-White, #FFF);
+        
+        box-shadow: 0px 0px 0px 2px #94ABFF, 0px 1px 2px 0px #94ABFF;
+        }
+        .label{
+            color: var(--Colors-Primary-Slate-700, #3D4A5C);
+            
+            /* Paragraph: 2/Regular */
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 160% */
+            letter-spacing: -0.3px;
+            }
+
+}
+@media (max-width: 768px) {
+    .box{
+        border-radius: 12px;
+        
+        padding: 18px 11px 18px 11px;
+        align-items: center;
+       
+        }
+        .label{
+            color: var(--Colors-Primary-Slate-700, #3D4A5C);
+            
+            /* Paragraph: 2/Regular */
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 160% */
+            letter-spacing: -0.3px;
+            }
+}
+
+@media (max-width: 380px) {
+    .box{
+        border-radius: 12px;
+        
+        padding: 12px 11px 11px 12px;
+        align-items: center;
+       
+        }
+        .label{
+            
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px; /* 160% */
+            letter-spacing: -0.3px;
+            }
+}

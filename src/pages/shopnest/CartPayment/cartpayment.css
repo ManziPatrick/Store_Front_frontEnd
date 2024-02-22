@@ -1,0 +1,24 @@
+@media (min-width: 1px) {
+    .tableshadow {
+        background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #E9EFF6, #E9EFF6);
+        border: none;
+        box-shadow: 0px 0px 0px 0px rgba(16, 24, 40, 0.03), 0px 00px 0px 0px rgba(16, 24, 40, 0.08);
+        margin-bottom: 0px;
+      }
+}
+
+
+
+  @media (min-width: 770px) {
+    .tableshadow {
+        background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #E9EFF6, #E9EFF6);
+        border: 1px solid rgba(233, 239, 246, 1);
+        box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.03), 0px 20px 24px -4px rgba(16, 24, 40, 0.08);
+        margin-bottom: 20px;
+      }
+  }
+ 
+
+
+
+  

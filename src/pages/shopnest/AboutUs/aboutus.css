@@ -1,0 +1,618 @@
+@media (min-width: 1px) {
+	.aboutContainer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+	.aboutContainer .landingpicture {
+		background-image: url('./../../../assets/shopnest/backgroundImg.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position-x: center;
+		height: 100vh;
+		width: 95vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.aboutContainer .landingpicture .textsection {
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.aboutContainer .landingpicture .textsection h1 {
+		color: #1c222b;
+		font-size: 40px;
+		font-family: Inter;
+		font-weight: 700;
+		text-transform: uppercase;
+		line-height: 60px;
+		word-wrap: break-word;
+		text-align: center;
+	}
+
+	.aboutContainer .landingpicture .textsection p {
+		color: #1c222b;
+		font-size: 20px;
+		font-family: Inter;
+		font-weight: 400;
+		line-height: 32px;
+		word-wrap: break-word;
+		text-align: center;
+	}
+
+	.aboutContainer .ourStory {
+		padding: 4em 0;
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
+
+	.aboutContainer h2 {
+		color: #1c222b;
+		font-size: 24px;
+		font-family: Inter;
+		font-weight: 700;
+		line-height: 36px;
+		word-wrap: break-word;
+	}
+
+	.aboutContainer .ourStory p {
+		color: #1c222b;
+		font-size: 20px;
+		font-family: Inter;
+		font-weight: 400;
+		line-height: 32px;
+		word-wrap: break-word;
+		text-align: center;
+	}
+	.aboutContainer .shopwithus {
+		background-color: #f2f2f2;
+		width: 95vw;
+		padding: 4em 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 2em;
+	}
+
+	.aboutContainer .shopwithus .whysshop {
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1.5em;
+	}
+
+	.aboutContainer .shopwithus .whysshop .oneshop {
+		display: flex;
+		align-items: flex-start;
+		gap: 20px;
+		width: 90%;
+	}
+
+	.aboutContainer .shopwithus .whysshop .oneshop .textdetails {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.aboutContainer .shopwithus .whysshop .oneshop .textdetails h3 {
+		color: #1d2026;
+		font-size: 20px;
+		font-family: Inter;
+		font-weight: 700;
+		line-height: 32px;
+		word-wrap: break-word;
+		text-align: center;
+	}
+	.aboutContainer .shopwithus .whysshop .oneshop .textdetails p {
+		color: #1c222b;
+		font-size: 14px;
+		font-family: Inter;
+		font-weight: 400;
+		line-height: 24px;
+		word-wrap: break-word;
+		text-align: center;
+	}
+
+	.aboutContainer .teamSection {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 95%;
+		padding: 4em 0;
+		gap: 3em;
+	}
+
+	.aboutContainer .teamSection .teamMembers {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	.aboutContainer .teamSection .teamMembers .teamMember {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 45%;
+		gap: 10px;
+	}
+
+	.aboutContainer .teamSection .teamMembers .teamMember h3 {
+		color: #1c222b;
+		font-size: 20px;
+		font-family: Inter;
+		font-weight: 700;
+		line-height: 32px;
+		word-wrap: break-word;
+	}
+
+	.aboutContainer .teamSection .teamMembers .teamMember h4 {
+		color: #1c222b;
+		font-size: 14px;
+		font-family: Inter;
+		font-weight: 400;
+		line-height: 24px;
+		word-wrap: break-word;
+	}
+
+	.aboutContainer .reviewsection {
+		width: 95%;
+		display: flex;
+		flex-direction: column;
+		background-image: url('../../../assets/shopnest/background.png');
+		background-position-x: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 80vh;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		gap: 20px;
+	}
+	.aboutContainer .reviewsection h2 {
+		font-family: Inter;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 36px; /* 150% */
+		letter-spacing: -0.5px;
+		color: white;
+	}
+	.aboutContainer .reviewsection .reviewdetails {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		width: 80%;
+	}
+	.aboutContainer .reviewsection .reviewdetails img {
+		border-radius: 50%;
+	}
+	.aboutContainer .reviewsection p {
+		text-align: center;
+		/* Paragraph: 5/Bold */
+		font-family: Inter;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 24px; /* 171.429% */
+		letter-spacing: -0.2px;
+		text-align: center;
+	}
+}
+@media (min-width: 770px) {
+	.aboutContainer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.aboutContainer .landingpicture {
+		background-image: url('./../../../assets/shopnest/backgroundImg.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 80vh;
+		width: 95vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.aboutContainer .landingpicture .textsection {
+		width: 70%;
+	}
+
+	.aboutContainer .landingpicture .textsection h1 {
+		color: #1c222b;
+		font-size: 72px;
+		font-family: Inter;
+		font-weight: 700;
+		text-transform: uppercase;
+		line-height: 90px;
+		word-wrap: break-word;
+		text-align: center;
+	}
+
+	.aboutContainer .landingpicture .textsection p {
+		color: #1c222b;
+		font-size: 20px;
+		font-family: Inter;
+		font-weight: 400;
+		line-height: 32px;
+		word-wrap: break-word;
+		text-align: center;
+	}
+
+	.aboutContainer .ourStory {
+		padding: 4em 0;
+		width: 60%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
+
+	.aboutContainer h2 {
+		color: #1c222b;
+		font-size: 24px;
+		font-family: Inter;
+		font-weight: 700;
+		line-height: 36px;
+		word-wrap: break-word;
+	}
+
+	.aboutContainer .ourStory p {
+		color: #1c222b;
+		font-size: 20px;
+		font-family: Inter;
+		font-weight: 400;
+		line-height: 32px;
+		word-wrap: break-word;
+		text-align: center;
+	}
+	.aboutContainer .shopwithus {
+		background-color: #f2f2f2;
+		width: 95vw;
+		padding: 4em 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 2em;
+	}
+
+	.aboutContainer .shopwithus .whysshop {
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.aboutContainer .shopwithus .whysshop .oneshop {
+		display: flex;
+		align-items: flex-start;
+		gap: 20px;
+		width: 90%;
+	}
+
+	.aboutContainer .shopwithus .whysshop .oneshop .textdetails {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.aboutContainer .shopwithus .whysshop .oneshop .textdetails h3 {
+		color: #1d2026;
+		font-size: 20px;
+		font-family: Inter;
+		font-weight: 700;
+		line-height: 32px;
+		word-wrap: break-word;
+	}
+	.aboutContainer .shopwithus .whysshop .oneshop .textdetails p {
+		color: #1c222b;
+		font-size: 14px;
+		font-family: Inter;
+		font-weight: 400;
+		line-height: 24px;
+		word-wrap: break-word;
+		text-align: center;
+	}
+
+	.aboutContainer .teamSection {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 95%;
+		padding: 4em 0;
+		gap: 3em;
+	}
+
+	.aboutContainer .teamSection .teamMembers {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.aboutContainer .teamSection .teamMembers .teamMember {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		width: 32%;
+	}
+
+	.aboutContainer .teamSection .teamMembers .teamMember h3 {
+		color: #1c222b;
+		font-size: 20px;
+		font-family: Inter;
+		font-weight: 700;
+		line-height: 32px;
+		word-wrap: break-word;
+	}
+
+	.aboutContainer .teamSection .teamMembers .teamMember h4 {
+		color: #1c222b;
+		font-size: 14px;
+		font-family: Inter;
+		font-weight: 400;
+		line-height: 24px;
+		word-wrap: break-word;
+	}
+	.aboutContainer .reviewsection {
+		width: 95%;
+		display: flex;
+		flex-direction: column;
+		background-image: url('../../../assets/shopnest/background.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 80vh;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		gap: 20px;
+	}
+	.aboutContainer .reviewsection h2 {
+		font-family: Inter;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 36px; /* 150% */
+		letter-spacing: -0.5px;
+		color: white;
+	}
+	.aboutContainer .reviewsection .reviewdetails {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+	.aboutContainer .reviewsection .reviewdetails img {
+		border-radius: 50%;
+	}
+	.aboutContainer .reviewsection p {
+		text-align: center;
+		/* Paragraph: 5/Bold */
+		font-family: Inter;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 24px; /* 171.429% */
+		letter-spacing: -0.2px;
+	}
+}
+@media (min-width: 1000px) {
+	.aboutContainer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.aboutContainer .landingpicture {
+		background-image: url('./../../../assets/shopnest/backgroundImg.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 80vh;
+		width: 95vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.aboutContainer .landingpicture .textsection {
+		width: 70%;
+	}
+
+	.aboutContainer .landingpicture .textsection h1 {
+		color: #1c222b;
+		font-size: 72px;
+		font-family: Inter;
+		font-weight: 700;
+		text-transform: uppercase;
+		line-height: 90px;
+		word-wrap: break-word;
+		text-align: center;
+	}
+
+	.aboutContainer .landingpicture .textsection p {
+		color: #1c222b;
+		font-size: 20px;
+		font-family: Inter;
+		font-weight: 400;
+		line-height: 32px;
+		word-wrap: break-word;
+		text-align: center;
+	}
+
+	.aboutContainer .ourStory {
+		padding: 4em 0;
+		width: 60%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
+
+	.aboutContainer h2 {
+		color: #1c222b;
+		font-size: 24px;
+		font-family: Inter;
+		font-weight: 700;
+		line-height: 36px;
+		word-wrap: break-word;
+	}
+
+	.aboutContainer .ourStory p {
+		color: #1c222b;
+		font-size: 20px;
+		font-family: Inter;
+		font-weight: 400;
+		line-height: 32px;
+		word-wrap: break-word;
+		text-align: center;
+	}
+	.aboutContainer .shopwithus {
+		background-color: #f2f2f2;
+		width: 95vw;
+		padding: 4em 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 2em;
+	}
+
+	.aboutContainer .shopwithus .whysshop {
+		width: 80%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.aboutContainer .shopwithus .whysshop .oneshop {
+		display: flex;
+		align-items: flex-start;
+		gap: 20px;
+		width: 30%;
+	}
+
+	.aboutContainer .shopwithus .whysshop .oneshop .textdetails {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.aboutContainer .shopwithus .whysshop .oneshop .textdetails h3 {
+		color: #1d2026;
+		font-size: 20px;
+		font-family: Inter;
+		font-weight: 700;
+		line-height: 32px;
+		word-wrap: break-word;
+	}
+	.aboutContainer .shopwithus .whysshop .oneshop .textdetails p {
+		color: #1c222b;
+		font-size: 14px;
+		font-family: Inter;
+		font-weight: 400;
+		line-height: 24px;
+		word-wrap: break-word;
+		text-align: center;
+	}
+
+	.aboutContainer .teamSection {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 95%;
+		padding: 4em 0;
+		gap: 3em;
+	}
+
+	.aboutContainer .teamSection .teamMembers {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+	.aboutContainer .teamSection .teamMembers .teamMember {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		width: 15%;
+	}
+
+	.aboutContainer .teamSection .teamMembers .teamMember h3 {
+		color: #1c222b;
+		font-size: 20px;
+		font-family: Inter;
+		font-weight: 700;
+		line-height: 32px;
+		word-wrap: break-word;
+	}
+
+	.aboutContainer .teamSection .teamMembers .teamMember h4 {
+		color: #1c222b;
+		font-size: 14px;
+		font-family: Inter;
+		font-weight: 400;
+		line-height: 24px;
+		word-wrap: break-word;
+	}
+	.aboutContainer .reviewsection {
+		width: 95%;
+		display: flex;
+		flex-direction: column;
+		background-image: url('../../../assets/shopnest/background.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 80vh;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		gap: 20px;
+	}
+	.aboutContainer .reviewsection h2 {
+		font-family: Inter;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 36px; /* 150% */
+		letter-spacing: -0.5px;
+		color: white;
+	}
+	.aboutContainer .reviewsection .reviewdetails {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+	.aboutContainer .reviewsection .reviewdetails img {
+		border-radius: 50%;
+	}
+	.aboutContainer .reviewsection p {
+		text-align: center;
+		/* Paragraph: 5/Bold */
+		font-family: Inter;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 24px; /* 171.429% */
+		letter-spacing: -0.2px;
+	}
+}

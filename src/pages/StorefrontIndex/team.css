@@ -1,0 +1,243 @@
+@media (min-width: 1px) {
+	/* Team section */
+	.team {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: var(--componentGap);
+		padding: var(--componentPadding);
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+
+	.team .elipse {
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		z-index: 0;
+	}
+
+	.team .oval {
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+		z-index: 0;
+	}
+
+	.team h1 {
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 50px;
+		font-family: Inter;
+		z-index: 3;
+		text-align: center;
+	}
+
+	.team .teamMembers {
+		background: radial-gradient(
+			50% 50% at -0.34% 50.34%,
+			rgba(255, 210, 210, 0.65) 0%,
+			rgba(255, 244, 229, 0) 100%
+		);
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 2em;
+		z-index: 1;
+	}
+
+	.team .teamMembers .teamMember {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+		width: 40%;
+	}
+
+	.team .teamMembers .teamMember h3 {
+		font-family: Inter;
+		font-size: 23px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 43px;
+		/* 153.571% */
+		letter-spacing: -0.5px;
+	}
+
+	.team .teamMembers .teamMember h4 {
+		font-family: Inter;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 30px;
+		/* 166.667% */
+		letter-spacing: -0.3px;
+		color: #667085;
+	}
+}
+@media (min-width: 770px) {
+	/* Team section */
+	.team {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: var(--componentGap);
+		padding: var(--componentPaddingBig);
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+
+	.team .elipse {
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		z-index: 0;
+	}
+
+	.team .oval {
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+		z-index: 0;
+	}
+
+	.team h1 {
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 50px;
+		font-family: Inter;
+		z-index: 3;
+		text-align: center;
+	}
+
+	.team .teamMembers {
+		background: radial-gradient(
+			50% 50% at -0.34% 50.34%,
+			rgba(255, 210, 210, 0.65) 0%,
+			rgba(255, 244, 229, 0) 100%
+		);
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		gap: 2em;
+		z-index: 1;
+	}
+
+	.team .teamMembers .teamMember {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+		width: 20%;
+	}
+
+	.team .teamMembers .teamMember img {
+		width: 100%;
+	}
+
+	.team .teamMembers .teamMember h3 {
+		font-family: Inter;
+		font-size: 23px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 43px;
+		/* 153.571% */
+		letter-spacing: -0.5px;
+	}
+
+	.team .teamMembers .teamMember h4 {
+		font-family: Inter;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 30px;
+		/* 166.667% */
+		letter-spacing: -0.3px;
+		color: #667085;
+	}
+}
+@media (min-width: 1000px) {
+	/* Team section */
+	.team {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: var(--componentGap);
+		padding: var(--componentPaddingBig);
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+
+	.team .elipse {
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		z-index: 0;
+	}
+
+	.team .oval {
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+		z-index: 0;
+	}
+
+	.team h1 {
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 50px;
+		font-family: Inter;
+		z-index: 3;
+		text-align: center;
+	}
+
+	.team .teamMembers {
+		background: radial-gradient(
+			50% 50% at -0.34% 50.34%,
+			rgba(255, 210, 210, 0.65) 0%,
+			rgba(255, 244, 229, 0) 100%
+		);
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		gap: 2em;
+		z-index: 1;
+	}
+
+	.team .teamMembers .teamMember {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+		width: 20%;
+	}
+
+	.team .teamMembers .teamMember img {
+		width: 100%;
+	}
+
+	.team .teamMembers .teamMember h3 {
+		font-family: Inter;
+		font-size: 23px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 43px;
+		/* 153.571% */
+		letter-spacing: -0.5px;
+	}
+
+	.team .teamMembers .teamMember h4 {
+		font-family: Inter;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 30px;
+		/* 166.667% */
+		letter-spacing: -0.3px;
+		color: #667085;
+	}
+}

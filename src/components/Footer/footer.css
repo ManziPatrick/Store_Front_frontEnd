@@ -1,0 +1,130 @@
+:root {
+	--componentPadding: 4em 0em;
+	--white: #faf0e6;
+}
+
+@media (min-width: 1px) {
+	.pagefooter {
+		display: flex;
+		justify-content: center;
+		padding: var(--componentPadding);
+	}
+
+	.pagefooter .footerRow {
+		display: flex;
+		width: 85%;
+		justify-content: center;
+		flex-wrap: wrap;
+		row-gap: 2em;
+	}
+
+	.pagefooter .footerRow .column1 {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5em;
+		width: 50%;
+	}
+
+	.pagefooter .footerRow .column1 h3 {
+		font-family: Inter;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 32px;
+		letter-spacing: -0.3px;
+	}
+
+	.pagefooter .footerRow .column1 .socials {
+		display: flex;
+		gap: 10px;
+	}
+
+	.pagefooter .footerRow .column1 .socials img {
+		width: 24px;
+		height: 24px;
+	}
+
+	.pagefooter .footerRow .column2 {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5em;
+		width: 50%;
+	}
+
+	.pagefooter .footerRow .column2 h3 {
+		font-family: Inter;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 32px;
+		letter-spacing: -0.3px;
+	}
+
+	.pagefooter .footerRow .column2 .footerlinks {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5em;
+	}
+
+	.pagefooter .footerRow .column2 .footerlinks .footerlink {
+		text-decoration: none;
+		color: black;
+	}
+}
+
+@media (min-width: 770px) {
+	.pagefooter {
+		display: flex;
+		justify-content: center;
+		padding: 6em 0em 6em 0em;
+	}
+	.pagefooter .footerRow {
+		display: flex;
+		flex-wrap: nowrap;
+		width: 75%;
+		justify-content: space-around;
+	}
+	.pagefooter .footerRow .column1 {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5em;
+	}
+	.pagefooter .footerRow .column1 h3 {
+		font-family: Inter;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 32px;
+		letter-spacing: -0.3px;
+	}
+	.pagefooter .footerRow .column1 .socials {
+		display: flex;
+		gap: 10px;
+	}
+	.pagefooter .footerRow .column1 .socials img {
+		width: 24px;
+		height: 24px;
+	}
+	.pagefooter .footerRow .column2 {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5em;
+	}
+	.pagefooter .footerRow .column2 h3 {
+		font-family: Inter;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 32px;
+		letter-spacing: -0.3px;
+	}
+	.pagefooter .footerRow .column2 .footerlinks {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5em;
+	}
+	.pagefooter .footerRow .column2 .footerlinks .footerlink {
+		text-decoration: none;
+		color: black;
+	}
+}

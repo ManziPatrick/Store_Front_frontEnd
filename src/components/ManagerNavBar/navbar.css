@@ -1,0 +1,102 @@
+@media (min-width: 1px) {
+	.managerNavbar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 10vh;
+		background-color: #00114a;
+		display: flex;
+		align-items: center;
+		z-index: 5;
+		justify-content: space-between;
+	}
+	.managerNavbar .menulogo .burger {
+		display: block;
+		margin-left: 20px;
+		width: 25px;
+	}
+	.managerNavbar .logoBusinesName .businessName {
+		display: none;
+	}
+	.managerNavbar .logoBusinesName .hideNotch {
+		display: none;
+	}
+	.managerNavbar .menulogo .logo {
+		margin-left: 20px;
+		display: none;
+	}
+
+	.managerNavbar .profileNotification {
+		margin-right: 20px;
+		display: flex;
+		gap: 20px;
+	}
+	.managerNavbar .profileNotification .notificationBell {
+		width: 25px;
+	}
+	.managerNavbar .profileNotification .profile img {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+	}
+}
+@media (min-width: 770px) {
+	.managerNavbar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 10vh;
+		background-color: #00114a;
+		display: flex;
+		align-items: center;
+		z-index: 10;
+		justify-content: space-between;
+	}
+	.managerNavbar .menulogo .burger {
+		display: none;
+	}
+	.managerNavbar .logoBusinesName {
+		display: flex;
+		align-self: stretch;
+		align-items: center;
+	}
+	.managerNavbar .logoBusinesName .hideNotch {
+		display: none;
+	}
+	.managerNavbar .logoBusinesName .businessName {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-left: 10px;
+		padding-right: 10px;
+		background-color: #f2f5ff;
+		align-self: stretch;
+	}
+	.managerNavbar .logoBusinesName .businessName div {
+		color: var(--Colors-Primary-Slate-700, #3d4a5c);
+		text-align: center;
+		/* Paragraph: 4/Bold */
+		font-family: Inter;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 28px; /* 175% */
+		letter-spacing: -0.3px;
+	}
+	.managerNavbar .menulogo .logo {
+		width: 15vw;
+		display: block;
+		margin: 0px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.managerNavbar .profileNotification {
+		margin-right: 50px;
+	}
+	.managerNavbar .profileNotification .notificationBell {
+		width: 25px;
+	}
+}

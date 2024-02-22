@@ -1,0 +1,105 @@
+.productsdisplay {
+	position: relative;
+}
+
+.productsdisplay .productPictures {
+	display: flex;
+
+	justify-content: space-around;
+}
+.productsdisplay .productPictures .pictureClick {
+	gap: 10px;
+	width: 20%;
+}
+
+.productsdisplay .productPictures .pictureClick .currentImg {
+	border: 2px solid black;
+}
+
+.productsdisplay .productPictures .currentPicture img {
+	width: 100%;
+	height: 100%;
+}
+.productsdisplay .productsDetails {
+	width: 100%;
+}
+.productsdisplay .productsDetails .innerContainer {
+	width: 80%;
+	margin: auto;
+
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-between;
+}
+.productsdisplay .productsDetails .innerContainer .productPath {
+	font-family: Roboto, inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 68px;
+	color: #8897ae;
+}
+.productsdisplay .productsDetails .innerContainer h2 {
+	font-family: Inter;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 500;
+	/* line-height: 60px; 125% */
+	letter-spacing: -1.75px;
+}
+.productsdisplay .productsDetails .innerContainer .selectedColor {
+	border: black solid 1px;
+	padding: 1px;
+	height: fit-content;
+}
+.productsdisplay .productsDetails .innerContainer .sizes {
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: -0.2px;
+	border: 1px solid #d7dfe9;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #8897ae;
+	flex-wrap: wrap;
+}
+.productsdisplay .productsDetails .innerContainer .selectedSize {
+	border: 2px solid #000;
+}
+.productsdisplay .productsDetails .innerContainer .counter .countersection {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.productsdisplay .productsDetails h3 {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px; /* 171.429% */
+	letter-spacing: -0.2px;
+	text-transform: capitalize;
+}
+.productsdisplay .productsDetails .innerContainer .counter .textsection {
+	color: #8897ae;
+}
+.productsdisplay .productsDetails .innerContainer .counter {
+	border: #d7dfe9 1px solid;
+}
+.productsdisplay .productsDetails .innerContainer .addBag {
+	padding: 10px 30px;
+	background-color: #1c222b;
+	color: white;
+}
+.productsdisplay .productsDetails .innerContainer .saveBag {
+	padding: 10px 30px;
+	border: #d7dfe9 1px solid;
+	display: flex;
+	align-items: center;
+}
