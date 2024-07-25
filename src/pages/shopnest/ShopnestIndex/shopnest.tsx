@@ -149,7 +149,7 @@ const HomePagevOnePage: React.FC = () => {
 									alt="filter_One"
 								/>
 								<button className="absolute bottom-[0] h-10 bg-[#21212140] rounded-none shadow-white cursor-pointer font-bold inset-x-[0] min-w-full mx-auto text-center text-lg  tracking-[-0.30px] ">
-									{categories[20].name.toUpperCase()}
+									{categories[19].name.toUpperCase()}
 								</button>
 							</div>
 						</div>
